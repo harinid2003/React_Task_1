@@ -41,30 +41,30 @@ return (
   <header className="App-header">
   <form onSubmit={(e) => {handleSubmit(e)}}>
   {}
-  <h2> Simple form using react(7376212CB117)</h2>
-  <h3> Signup Form </h3>
+  <h2>REACT FORM(7376212CB117)</h2>
+  <h3>LOGIN FORM</h3>
     <label >
-    Name:
+    NAME:
     </label><br/>
     <input type="text" value={name} required onChange={(e)=> {handleChange(e)}} /><br/>
     {}
     <label >
-    Department:
+    DEPARTMENT:
     </label><br/>
     <input type="text" value={Department} required onChange={(e)=> {handleAgeChange(e)}} /><br/>
       {}
     <label>
-    MailId:
+    MAIL ID:
     </label><br/>
     <input type="MailId" value={MailId} required onChange={(e)=> {handleMailIdChange(e)}} /><br/>
     {}
     <label>
-    Password:
+    PASSWORD:
     </label><br/>
     <input type="password" value={password} required onChange={(e)=> {handlePasswordChange(e)}} /><br/>
       {}
     <label>
-    Confirm Password:
+    CONFORM PASSWORD:
     </label><br/>
     <input type="password" value={confPassword} required onChange={(e)=> {handleConfPasswordChange(e)}} /><br/>
         {}
