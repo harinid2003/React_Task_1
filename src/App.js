@@ -59,7 +59,7 @@ return (
     <input type="MailId" value={MailId} required onChange={(e)=> {handleMailIdChange(e)}} /><br/>
     {}
     <label>
-    PASSWORD :
+    PASSWORD:
     </label><br/>
     <input type="password" value={password} required onChange={(e)=> {handlePasswordChange(e)}} /><br/>
       {}
